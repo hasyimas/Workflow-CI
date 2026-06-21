@@ -30,7 +30,7 @@ jobs:
         MLFLOW_TRACKING_PASSWORD: ${{ secrets.DAGSHUB_TOKEN }}
       run: |
         cd MLProject
-        mlflow run . --env-manager=local
+        mlflow run . --env-manager=local --experiment-name="Breast_Cancer_CI_Project"
 
     - name: Build Docker Image (Advance Target)
       env:
