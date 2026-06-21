@@ -7,7 +7,7 @@ import mlflow.sklearn
 
 def load_data(data_dir=None):
     if data_dir is None:
-        data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Eksperimen_SML_hasyim', 'breast_cancer_preprocessing')
+        data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'breast_cancer_preprocessing')
     X_train = pd.read_csv(os.path.join(data_dir, 'X_train.csv'))
     X_test = pd.read_csv(os.path.join(data_dir, 'X_test.csv'))
     y_train = pd.read_csv(os.path.join(data_dir, 'y_train.csv')).squeeze()
