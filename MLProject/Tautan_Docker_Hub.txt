@@ -1,4 +1,0 @@
-Tautan Docker Hub Images:
-https://hub.docker.com/repository/docker/USERNAME/IMAGE_NAME
-
-(Silakan ganti USERNAME dan IMAGE_NAME sesuai dengan repositori Docker Hub Anda)
